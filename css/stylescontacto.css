@@ -1,0 +1,88 @@
+
+  
+  h2 {
+    text-align: center;
+    color: #333333;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333333;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #428bca;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3071a9;
+  }
+  
+  .error {
+    color: #ff0000;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos específicos para campos obligatorios */
+  input[required] {
+    border-color: #ff0000;
+  }
+  
+  input[required]:focus {
+    outline-color: #ff0000;
+  }
+  
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333333;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+  }
+  
+  .submenu li {
+    display: block;
+  }
+  
+  .submenu li a {
+    padding: 10px 20px;
+  }
+  
+  .menu li:hover .submenu {
+    display: block;
+  }
+  
