@@ -10,8 +10,6 @@ header ul {
     display: flex;
     padding: 3rem;
 
-
-
 }
 
 header ul li{
@@ -40,7 +38,13 @@ header ul li:hover{
 
 }
 .header_img{
-    padding: 1rem;
-    margin-left: 5rem;
+
+    margin-left: 7rem;
+
+
+}
+header img{
+
+    width: 110px;
 
 }
