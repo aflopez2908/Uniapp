@@ -21,6 +21,10 @@ header ul li{
 
 
 }
+header ul li:hover{
+    text-decoration: dashed;
+    font-size: 110%;
+}
 
 .log_in_button{
     color: #620426;
@@ -32,7 +36,7 @@ header ul li{
 
 }
 :hover.log_in_button{
-    height: 3.5rem;
+    font-size: +90%;
 
 }
 .header_img{

@@ -8,6 +8,8 @@
     font-family: 'Titan One', sans-serif;
     height: 2rem;
 }
+
+/* div de la imagen y de la foto de perfil*/
 .imagen{
     display: flex;
     justify-content: center;
@@ -29,6 +31,40 @@
     padding:1rem;
 
 }
+
+/* div acerca de */
+.acerca_div{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 6rem 1rem 1rem;
+
+
+
+}
 .acerca_container{
     background-color: #D9D9D9;
+    display: inline-flex;
+    flex-direction: column;
+}
+.acerca_container p{
+
+    padding: 1rem;
+    width: 327px;
+    height: 100px;
+
+}
+
+.boton_acerca {
+
+    color: #620426;
+    background-color: #D9D9D9;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titan One', sans-serif;
+    text-align: right;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+
+}
+:hover.boton_acerca{
+    font-size: +80%;
 }
