@@ -1,0 +1,42 @@
+header{
+    background-color: #620426 ;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titan One', sans-serif;
+
+}
+header ul {
+    display: flex;
+    padding: 3rem;
+
+
+
+}
+
+header ul li{
+    padding: 1rem;
+    text-decoration: none;
+    color: #F8F8F8;
+
+
+}
+
+.log_in_button{
+    color: #620426;
+    background-color: #D9D9D9;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titan One', sans-serif;
+    border-radius: 1rem;
+    padding: 1rem;
+
+}
+:hover.log_in_button{
+    height: 3.5rem;
+
+}
+.header_img{
+    padding: 1rem;
+    margin-left: 5rem;
+
+}
