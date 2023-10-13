@@ -1,0 +1,54 @@
+/* Reset de CSS para borrar los ajustes predeterminados */
+
+/* Establecer los márgenes, el relleno y el borde en todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Establecer la fuente y el tamaño de fuente predeterminados */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Asegurarse de que los elementos en línea se muestren correctamente */
+a,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    display: inline;
+}
+
+/* Asegurarse de que los elementos de lista se muestren correctamente */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Restablecer el estilo de enlaces para eliminar el subrayado y cambiar el color */
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Establecer una caja de borde y modelo de caja estándar */
+div,
+section,
+article,
+header,
+footer {
+    box-sizing: border-box;
+}
+
+/* Asegurar que las imágenes se ajusten a su contenedor */
+img {
+    max-width: 100%;
+    height: auto;
+}
